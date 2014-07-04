@@ -1,4 +1,5 @@
 ActiveAdmin.register Places do
+  permit_params :latitude, :longitude, :name
 
   
   # See permitted parameters documentation:
